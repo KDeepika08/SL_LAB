@@ -1,0 +1,7 @@
+9. Write a Ruby script to print the elements of a given array
+
+arr1 = ["Ruby",2.3,Time.now]
+for ele in arr1
+  puts ele 
+end
+
