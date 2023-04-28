@@ -1,0 +1,12 @@
+10. Write a Ruby program to retrieve the total marks where subject name and marks of a student
+stored in a hash
+
+smarks = Hash.new()
+smarks['English'] = 80
+smarks['Hindi'] = 100
+smarks['Maths'] = 90
+total_marks = 0
+smarks.each{|key,value|
+  total_marks += value
+}
+puts "Total Marks:"+total_marks.to_s
