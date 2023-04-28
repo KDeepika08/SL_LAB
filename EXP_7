@@ -1,0 +1,9 @@
+7. Write a Ruby script to check two integers and return true if one of them is 20 otherwise return their
+sum
+
+def is20(x,y)
+  return x == 20||y == 20||x+y == 20
+end
+print is20(10,10),"\n"
+print is20(4,10),"\n"
+print is20(15,20),"\n"
